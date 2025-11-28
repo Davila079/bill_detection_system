@@ -4,7 +4,7 @@ from tkinter import ttk, filedialog, messagebox
 from PIL import Image, ImageTk
 from ultralytics import YOLO
 
-MODEL_PATH = "/Users/alejandrodavila/Documents/Universidad/7mo Semestre/Artificial Vision/Proyecto/runs/detect/test_yolo8m/weights/best.pt"
+MODEL_PATH = "../runs/detect/test_yolo8m/weights/best.pt"
 
 DENOMINATIONS = {
     "20_bill": 20, "50_bill": 50, "100_bill": 100, "200_bill": 200, "500_bill": 500,
